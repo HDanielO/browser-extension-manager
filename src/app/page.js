@@ -1,7 +1,11 @@
+import NavBar from "@/components/NavBar/navbar.js";
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-1"></main>
+      <main className="flex-1">
+        <NavBar></NavBar>
+      </main>
 
       <div className="flex justify-center text-center text-sm pb-4 text-gray-600">
         Challenge by{"  "}
